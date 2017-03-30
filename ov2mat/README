@@ -1,0 +1,33 @@
+Converting .ov file to a .mat file for analysis in Matlab, v0.1
+
+Instructions for Windows, Linux hackers should be able to modify the necessary parts.
+
+Requirements: OpenViBE v1.1.0 installed in the usual location and matlab.
+
+NOTES
+-----
+The script assumes that each .ov file contains a signal stream and a stimulation stream. Other streams are discarded.
+
+The signal conversion is not bit perfect as it goes through a CSV file, with a decimal precision of 10.
+
+
+INSTALL
+--------
+First, we need to patch openvibe v1.1.0:
+
+- Replace ov2csv.xml in "C:\Program Files (x86)\openvibe\share\openvibe\scenarios\convert" with the file from this package
+
+
+USAGE
+----- 
+To convert a file, do the following in Matlab
+
+>> convert_ov2mat('inputFile.ov', 'outputFile.mat')
+
+The resulting variable names in the .mat should be clear enough as to their content. The 'stims' contains stimulation time, ID, and duration, respectively.
+
+To convert a folder of files, you can try the 'convert_ovfolder.m' script, but remember to edit the variables first
+
+
+ - J.T. Lindgren, Dec 2015
+ 
