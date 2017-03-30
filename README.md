@@ -16,6 +16,7 @@ The authors would be grateful if published reports of research using this code
 (or a modified version, maintaining a significant portion of the original code)
 would cite this techreport as 
 
+----
 @TechReport{TutorialOpenBCI&OpenVibe,
 author = {Victoria Peterson},
 title = { OpenBCI & OpenVIBE for P300 speller paradigm:
