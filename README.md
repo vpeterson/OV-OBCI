@@ -17,13 +17,13 @@ The authors would be grateful if published reports of research using this code
 would cite this techreport as 
 
 @TechReport{TutorialOpenBCI&OpenVibe,
-author = {Victoria Petrson},
-title = {Getting started with OpenBCI and OpenVibe},
-institution = {Instituto de Investigaci\'{o}n en Se\~{n}ales, Sistemas e Inteligencia Computacional, UNL, CONICET, FICH, Ruta Nac. 168, km 472.4, 3000, Santa Fe, Argentina and Instituto de Matem\'{a}tica Aplicada del Litoral IMAL, CONICET-UNL, Predio CCT-CONICET-Santa Fe, Ruta Nac. 168, km. 472, 3000, Santa Fe, Argentina},
+author = {Victoria Peterson},
+title = { OpenBCI & OpenVIBE for P300 speller paradigm:
+a quick starting guide},
+institution = {Instituto de Investigación en Señales, Sistemas e Inteligencia Computacional, UNL, CONICET, FICH, Ruta Nac. 168, km 472.4, 3000, Santa Fe, Argentina and Instituto de Matemática Aplicada del Litoral IMAL, CONICET-UNL, Predio CCT-CONICET-Santa Fe, Ruta Nac. 168, km. 472, 3000, Santa Fe, Argentina},
 year = {2017},
-OPTmonth = {March},
+month = {March},
 }
-
 -----------------------
 -Victoria Peterson
 -MARCH 2017
